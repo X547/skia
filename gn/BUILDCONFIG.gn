@@ -70,6 +70,7 @@ is_linux = current_os == "linux"
 is_mac = current_os == "mac"
 is_wasm = current_os == "wasm"
 is_win = current_os == "win"
+is_haiku = current_os == "haiku"
 
 # Dawn has references to fuchsia, but Skia's GN rules do not
 is_fuchsia = false

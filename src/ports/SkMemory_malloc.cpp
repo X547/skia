@@ -5,6 +5,10 @@
  * found in the LICENSE file.
  */
 
+#ifdef __HAIKU__
+#define _DEFAULT_SOURCE
+#endif
+
 #include "include/private/base/SkAssert.h"
 #include "include/private/base/SkDebug.h"
 #include "include/private/base/SkFeatures.h"
